@@ -4,14 +4,21 @@ body {
 
 }
 
-
+.col-lg-12{
+margin-right: 100px;
+margin-left: 100px;
+margin-bottom: 100px;
+margin-top: 75px;
+padding: 5px 15px;
+background: rgb(255, 255,255, 0.88);
+background-color: rgba(241, 231, 231, 0.4);
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-
 }
 
 li {
@@ -43,7 +50,6 @@ li {
 li:last-child {
     border-right: none;
 }
-.main-header {
-    text-align: center;
-  }
-
+.active {
+    background-color: #4CAF50;
+}
